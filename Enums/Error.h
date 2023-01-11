@@ -1,0 +1,19 @@
+//
+// Created by Nevader on 26.12.2022.
+//
+
+#ifndef STEGANOGRAPHY_ERROR_H
+#define STEGANOGRAPHY_ERROR_H
+
+enum Error {
+    FILE_PATH,
+    FILE_EXTENSION,
+    INVALID_FLAG,
+    TOO_MANY_ARGUMENTS,
+    TOO_FEW_ARGUMENTS,
+    MESSAGE_TO_LONG,
+    NO_ENCODED_MESSAGE,
+    FILE_FORMAT
+};
+
+#endif //STEGANOGRAPHY_ERROR_H
